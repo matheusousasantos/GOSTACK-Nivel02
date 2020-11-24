@@ -1,6 +1,5 @@
 import { MigrationInterface, QueryRunner, Table } from "typeorm";
 
-// eslint-disable-next-line import/prefer-default-export
 export class CreateAppointments1605921859079 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.createTable(
