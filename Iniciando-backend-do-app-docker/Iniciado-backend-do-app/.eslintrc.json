@@ -23,6 +23,7 @@
     "prettier"
   ],
   "rules": {
+    "properties": "never",
     "import/extensions": [
       "error",
       "ignorePackages",
