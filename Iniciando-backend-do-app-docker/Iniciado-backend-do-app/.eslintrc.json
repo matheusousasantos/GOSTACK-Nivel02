@@ -23,16 +23,22 @@
     "prettier"
   ],
   "rules": {
-    "properties": "never",
+    "camelcase": [
+      "error",
+      {
+        "properties": "never",  
+        "ignoreDestructuring": true
+      }
+    ],
+    "prettier/prettier": "error",
+    "class-methods-use-this": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
       {
         "ts": "never"
       }
-    ],
-  "prettier/prettier": "error",
-  "class-methods-use-this": "off"
+    ]
   },
   "settings": {
     "import/resolver": {
